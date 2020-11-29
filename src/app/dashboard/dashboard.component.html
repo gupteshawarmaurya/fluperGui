@@ -1,0 +1,24 @@
+
+  <div class="container">
+      <table class="table" style="margin-top: 1rem;">
+    <thead>
+      <tr>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">User Name</th>
+        <th scope="col">DOB</th>
+        <th scope="col">Gender</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let da of userdata">
+        <td>{{da.firstName}}</td>
+        <td>{{da.lastName}}</td>
+        <td>{{da.userName}}</td>
+        <td>{{da.gender}}</td>
+        <td>{{da.dob}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  </div>
