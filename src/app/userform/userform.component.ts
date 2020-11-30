@@ -39,7 +39,6 @@ export class UserformComponent implements OnInit {
 
 
   addEmail() {
-    this.router.navigate(['/dashboard']);
     if(this.model.email){
     this.model.multipleEmail.push({ email: this.model.email });
     this.model.email="";

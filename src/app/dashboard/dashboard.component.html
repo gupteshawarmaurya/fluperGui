@@ -6,8 +6,9 @@
         <th scope="col">First Name</th>
         <th scope="col">Last Name</th>
         <th scope="col">User Name</th>
-        <th scope="col">DOB</th>
+       
         <th scope="col">Gender</th>
+        <th scope="col">DOB</th>
       </tr>
     </thead>
     <tbody>
@@ -16,7 +17,7 @@
         <td>{{da.lastName}}</td>
         <td>{{da.userName}}</td>
         <td>{{da.gender}}</td>
-        <td>{{da.dob}}</td>
+        <td>{{da.dob | date}}</td>
       </tr>
     </tbody>
   </table>
